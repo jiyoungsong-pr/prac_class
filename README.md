@@ -1,7 +1,8 @@
 # prac_class
 hi everyone
 
-##subtitle
+## subtitle
+
 -test1
 -bullet2
 -something
