@@ -1,0 +1,31 @@
+
+title: "Rmarkdown TEST"
+author: song-ji-young
+date: "MAR 11,2021"
+output: html_document
+
+
+## Rmarkdown Test
+
+```{r gobal_option, include=false}
+  knitr :: opts_chunk$Set(fig.width=12,fig.heigt=4,fig.path='Figs/',
+  warning=FALSE,message=FALSE,include=FALSE,echo=FALSE)
+  
+  set.seed(123123)
+```
+  
+``` {r}
+  data(iris)
+library(kintr)
+kable(iris[1:10,])
+
+```{r,include=False}
+1+1
+```
+```{r,echo=False}
+1+1
+```
+```{r course2, out.width=350px, fig.align='center',echo=FALSE}
+plot(iris[,1],iris[,2],col=iris[,5])  
+```
+$$/ sum_(i=1)^n x_i $$
