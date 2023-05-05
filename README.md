@@ -1,4 +1,4 @@
-# prac_class
+# ji_young
 hi everyone
 
 ## subtitle
